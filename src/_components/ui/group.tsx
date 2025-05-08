@@ -1,4 +1,4 @@
-import { cn } from "@/_lib/utils"
+import { cn } from "@/_helpers/cn"
 import { HTMLAttributes } from "react"
 
 type GroupProps = HTMLAttributes<HTMLDivElement> & {
