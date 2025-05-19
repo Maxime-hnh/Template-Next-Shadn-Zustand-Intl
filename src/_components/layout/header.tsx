@@ -3,11 +3,11 @@
 import Image from 'next/image';
 import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from '@/_components/ui/sheet';
 import { Menu } from 'lucide-react';
-import { ModeToggle } from '../ui/theme-toggle';
 import { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '../ui/button';
 import { IntlToggle } from '../ui/intl-toggle';
+import { ThemeToggle } from '../ui/theme-toggle';
 
 
 export default function Header() {
@@ -28,7 +28,7 @@ export default function Header() {
           <Link href="/">link 2</Link>
           <Link href="/">link 3</Link>
           <IntlToggle />
-          <ModeToggle />
+          <ThemeToggle />
         </nav>
         <div></div>
       </div>
